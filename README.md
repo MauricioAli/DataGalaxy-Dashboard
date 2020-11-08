@@ -107,7 +107,7 @@ if __name__ == '__main__':
  
  # Deploy usando heroku
  
- Debemos tener nuestro proyecto en un entorno virtual
+ Debemos tener nuestro proyecto en un entorno virtual en la carpea del proyecto.
 ```
 $ git init       
 $ virtualenv venv 
@@ -142,7 +142,16 @@ pip freeze > requirements.txt
 
 Necesitamos tener una cuenta heroku https://id.heroku.com/login e installar heroku cli https://devcenter.heroku.com/articles/heroku-cli#download-and-install
 
+Creamos nuestro proyecto heroku y procedemos a hacer push al servidor de heroku. 
+```
+$ heroku create my-dash-app 
 
+$ git add . 
+$ git commit -m 'primer Deploy'
+$ heroku git:remote -a my-dash-app
+$ git push heroku master 
 
-
+```
+Esperamos que termine todo el proceso y ya podemos entrar al link resultante.
+# Eso es todo, espero ver sus propios dashboard 
 
