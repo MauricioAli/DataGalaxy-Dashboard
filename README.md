@@ -153,5 +153,7 @@ $ git push heroku master
 
 ```
 Esperamos que termine todo el proceso y ya podemos entrar al link resultante.
+https://dashapp22.herokuapp.com/
+
 # Eso es todo, espero ver sus propios dashboard 
 
