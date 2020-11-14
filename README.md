@@ -129,7 +129,7 @@ venv
 .env
 
 ```
-Profile
+Procfile
 ```
 web: gunicorn app:server --log-file=-
 
