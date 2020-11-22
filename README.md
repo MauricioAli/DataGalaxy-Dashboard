@@ -1,6 +1,6 @@
 # DataGalaxy-Dashboard
 
-Saludos este es un paso a paso de como crear tu primer dashboad con dash ploty ,importar diferetes graficas y poder compartirlo con ngrok o mejor aun por heroku.
+Saludos, este es un paso a paso de como crear tu primer dashboad con dash ploty ,importar diferetes graficas y poder compartirlo con ngrok o mejor aun por heroku.
 
 
 # Que es Dash?
